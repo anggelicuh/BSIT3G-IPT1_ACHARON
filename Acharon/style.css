@@ -1,0 +1,413 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins,Times New Roman;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.hero-header{
+    width:100%;
+    height: 100%;
+    min-height: 100vh;
+    background: #939ca2;
+}
+.wrapper{
+    width:1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    height: 45px;
+    width:45px;
+    background-color: #fff;
+    border-radius: 50%;
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: center;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color:#fff;
+}
+
+/*FOR NAME AND INFO*/
+.NameInfodiv{
+    color: #333;
+    margin-top: 80px;
+    margin-left: 80px;
+    }
+    .name{
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .info{
+        font-size: 20px;
+        width: 650px;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+    }
+     
+    /*CONTACT PAGE*/
+    .wholecontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin: 5%;
+        align-items: center;
+    }
+    /*FACEBOOK PAGE*/
+    .container1{
+        font-size: 25px;
+        width: 500px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .overlay1{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+        align-items: center;
+    }
+    .facebook{
+        position: relative;
+        background-color: #fccde5;
+        text-align: center;
+        border-radius: 10px;
+        padding: 50px;
+        transition: width 3s;
+        
+    }
+    .facebook:hover .overlay1{
+        width: 100%;
+    }
+    .fbcolor{
+        color: black;
+    }
+    .fbfont{
+        padding: 80px;
+        white-space: nowrap;
+    }
+    .fblogo{
+        height: 100px;
+        vertical-align: middle;
+        color: black;
+    }
+    /*GMAIL PAGE*/
+    .container2{
+        font-size: 24px;
+        width: 500px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .overlay2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+    }
+    .gmail{
+        position: relative;
+        background-color: #fccde5;
+        text-align: center;
+        border-radius: 10px;
+        padding: 50px;
+        transition: width 3s;
+    }
+    .gmail:hover .overlay2{
+        width: 100%;
+    }
+    .gmailcolor{
+        color: black;
+    }
+    .gmailfont{
+        padding: 80px 40px 40px 20px;
+        white-space: nowrap;
+    }
+    .gmaillogo{
+        height: 100px;
+        vertical-align: middle;
+    }
+    
+    /*MESSENGER PAGE*/
+    .container3{
+        font-size: 25px;
+        width: 500px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .overlay3{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+    }
+    .messenger{
+        position: relative;
+        background-color: #fccde5;
+        text-align: center;
+        border-radius: 10px;
+        padding: 50px;
+        transition: width 3s;
+    }
+    .messenger:hover .overlay3{
+        width: 100%; 
+    }
+    .msgcolor{
+        color: black;
+    }
+    .msgfont{
+        padding: 80px;
+        white-space: nowrap;
+    }
+    .msglogo{
+        height: 100px;
+        vertical-align: middle;
+    }
+    
+    /*CONTACT PAGE*/
+    .container4{
+        font-size: 25px;
+        width: 500px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    .overlay4{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+    }
+    .contact{
+        position: relative;
+        background-color: #fccde5;
+        text-align: center;
+        border-radius: 10px;
+        padding: 50px;
+        transition: width 3s;
+    }
+    .contact:hover .overlay4{
+        width: 100%; 
+        border-radius: 10px;
+    }
+    .contactcolor{
+        color: black
+        
+    }
+    .contactfont{
+        padding: 80px 60px 60px 40px;
+        white-space: nowrap;
+    }
+    .contactlogo{
+        height: 100px;
+        vertical-align: middle;
+    }
+
+nav .togglebtn span{
+    display: block;
+    background-color: #fccde5;
+    margin: 5px 0px;
+    width:100%;
+    height:3px;
+    transition: 0.3s;
+    transition-property:  transform, opacity;
+
+}
+nav .navlinks{
+    list-style-type: none;
+}
+nav .navlinks li{
+    display: inline-block;
+}
+nav .navlinks li a{
+     color:#ffffff;
+     margin-right: 2.5rem;
+     
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:4rem;
+    align-content: center;
+}
+.container .hero-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid #fccde5;
+    box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
+    align-content: center;
+    
+}
+.hero-pic img{
+    height: 100%;
+    width:100%;
+    transition: 0.5s;
+    align-content: center;
+    
+
+    
+}
+.hero-pic img:hover{
+    transform: scale(1.2);
+    align-content: center;
+}
+.hero-text{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-text h3{
+    color:#ca1090;
+    font-size: 25px;
+    
+
+.hero-text h5 span{
+    color:#333;
+    font-size: 16px;
+    
+}
+.hero-text h1{
+    color: #ca1090;
+    font-size: 3rem;
+    align-items: center;
+}
+.hero-text p{
+    color:#333;
+
+}
+
+.btn.active{
+    border-color: #444;
+}
+.hero-text .social i{
+    color: #e5e5e5;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.hero-text .social i:hover{
+    color:#444;
+    transform: rotate(360deg);
+}
+.div-cont
+/* Respnosiv design & displaying navbar for small screen */
+media (max-width:930px)
+    nav .togglebtn
+        display: initial;
+    
+    /* for toggle button**/
+    .click {
+        top:45px;
+    }
+    .click span{
+        position: absolute;
+        margin-top:12px
+    }
+    .click span:first-child{
+        transform: rotate(-40deg);
+    }
+    .click span:nth-child(2)
+    {
+        opacity: 0;
+        margin:0;
+    }
+    .click span:last-child{
+        transform: rotate(45deg);
+        top:0;
+    }
+    nav .navlinks{
+        position: absolute;
+        top:110px;
+        right:-100%;
+        bottom: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: #222;
+        z-index: 3;
+        box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
+        transition: 0.5s;
+        padding: 25px 0px;
+    }
+    nav .navlinks li{
+        display: block;
+    }
+    nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .navlinks.open{
+        right:0;
+    }
+
+@media(max-width:768px)
+{
+    .container{
+        flex-direction: column;
+        padding-top:2rem
+    }
+    .hero-text{
+        padding:40px 0px;
+    }
+}
